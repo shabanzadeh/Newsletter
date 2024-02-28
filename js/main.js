@@ -15,7 +15,13 @@ function onSubmit(e){
     if(emailInput.value==='' || !emailInput.value.match(pattern)){
         msg.innerHTML = "<h5> vaild email requierded</h5>"
         msg.classList.add("error")
+
+        setTimeout(()=>{
+            msg.remove()
+
+        },3000)
     }
+    
 
    
 }
