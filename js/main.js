@@ -1,6 +1,8 @@
 const myform = document.querySelector("#my-form");
 const emailInput = document.querySelector("#email")
 const msg = document.querySelector(".msg")
+const thank = document.querySelector(".thanks")
+
 //console.log(emailInput.value)
 //const submit_input = document.querySelector(".btn")
 
@@ -17,9 +19,15 @@ function onSubmit(e){
         msg.classList.add("error")
 
         setTimeout(()=>{
-            msg.remove()
+            msg.innerHTML="";
+            msg.classList.remove("error")
 
         },3000)
+    }
+    else{
+        window.location.assign("success.html")
+        thank.classList.add("thanks")
+
     }
     
 
