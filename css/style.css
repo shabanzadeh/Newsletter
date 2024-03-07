@@ -46,7 +46,10 @@ img{
 
 
 .container{
-    margin:10% 20% 10% 20%;
+
+    margin:auto;
+    margin-top: 75px;
+    
     border: 2px solid #ccc;
     border-radius: 5px;
     overflow:auto;
