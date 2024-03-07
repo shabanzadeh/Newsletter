@@ -111,7 +111,7 @@ img{
 .btn{  
     width:100%;
     padding:10px 10px;
-    background-color: rgba(229, 118, 63, 0.89);
+    background-color: rgb(229, 63, 99) + #B4009E;
     color: #ccc;
     border-radius: 10px;
     margin: 5px 20px 10px 7px;
